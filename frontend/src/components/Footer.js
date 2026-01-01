@@ -30,7 +30,7 @@ const Footer = ({ backgroundColor = '#292929', textColor = '#FFFFFF', accentColo
         </div>
       </div>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <p>© 2024 KM Fashion. All Rights Reserved.</p>
+        <p>© 2026 KM Fashion. All Rights Reserved.</p>
       </div>
     </footer>
   );
