@@ -34,7 +34,7 @@ const HorizontalCardProduct = ({category,heading}) => {
     <div className='container mx-auto px-4 my-6'>
         <h2 className='text-2xl font-semibold py-4'>{heading}</h2>
 
-        <div className='flex items-center gap-4 md:gap-6'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6'>
         {
             loading ? (
                 loadingList.map((product,index)=>{

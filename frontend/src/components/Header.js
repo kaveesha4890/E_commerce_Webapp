@@ -63,7 +63,7 @@ function Header() {
             </div>
 
             <div className='flex items-center'>
-                <input type='text'  placeholder='Search Product here ' className='outline-none' onClick={handlesearch} value={search}/>
+                <input type='text'  placeholder='Search Product here ' className='outline-none' onChange={handlesearch} value={search}/>
                 <div className='text-lg '> 
                     <GrSearch/>
                 </div>
