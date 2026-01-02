@@ -1,5 +1,5 @@
 
-const backendDomin = "http://localhost:5000"
+const backendDomin = "https://e-commerce-webapp-erwu.onrender.com"
 
 const SummaryApi = {
     signUP : {
